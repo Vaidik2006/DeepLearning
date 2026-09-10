@@ -1,0 +1,31 @@
+RESNET50 TRANSFER LEARNING RESULTS
+==================================================
+
+Dataset: Grapevine Leaves
+Number of Classes: 5
+Training Images: 350
+Validation Images: 75
+Testing Images: 75
+Epochs: 15
+Batch Size: 32
+Best Epoch: 6
+Best Validation Accuracy: 94.67%
+Final Test Accuracy: 89.33%
+Test Loss: 0.4067
+Training Time: 644.00 seconds
+
+
+CLASSIFICATION REPORT
+==================================================
+
+              precision    recall  f1-score   support
+
+          Ak       0.82      0.93      0.88        15
+   Ala_Idris       1.00      0.73      0.85        15
+     Buzgulu       0.79      1.00      0.88        15
+      Dimnit       0.93      0.87      0.90        15
+       Nazli       1.00      0.93      0.97        15
+
+    accuracy                           0.89        75
+   macro avg       0.91      0.89      0.89        75
+weighted avg       0.91      0.89      0.89        75

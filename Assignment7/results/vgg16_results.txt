@@ -1,0 +1,31 @@
+VGG16 TRANSFER LEARNING RESULTS
+==================================================
+
+Dataset: Grapevine Leaves
+Number of Classes: 5
+Training Images: 350
+Validation Images: 75
+Testing Images: 75
+Epochs: 15
+Batch Size: 32
+Best Epoch: 10
+Best Validation Accuracy: 90.67%
+Final Test Accuracy: 81.33%
+Test Loss: 1.2675
+Training Time: 909.15 seconds
+
+
+CLASSIFICATION REPORT
+==================================================
+
+              precision    recall  f1-score   support
+
+          Ak       0.68      0.87      0.76        15
+   Ala_Idris       1.00      0.80      0.89        15
+     Buzgulu       0.80      0.80      0.80        15
+      Dimnit       0.77      0.67      0.71        15
+       Nazli       0.88      0.93      0.90        15
+
+    accuracy                           0.81        75
+   macro avg       0.83      0.81      0.81        75
+weighted avg       0.83      0.81      0.81        75

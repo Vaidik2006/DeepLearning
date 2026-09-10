@@ -1,0 +1,31 @@
+ALEXNET TRANSFER LEARNING RESULTS
+==================================================
+
+Dataset: Grapevine Leaves
+Number of Classes: 5
+Training Images: 350
+Validation Images: 75
+Testing Images: 75
+Epochs: 15
+Batch Size: 32
+Best Epoch: 11
+Best Validation Accuracy: 78.67%
+Final Test Accuracy: 78.67%
+Test Loss: 0.9192
+Training Time: 126.30 seconds
+
+
+CLASSIFICATION REPORT
+==================================================
+
+              precision    recall  f1-score   support
+
+          Ak       0.86      0.80      0.83        15
+   Ala_Idris       0.76      0.87      0.81        15
+     Buzgulu       0.63      0.80      0.71        15
+      Dimnit       0.83      0.67      0.74        15
+       Nazli       0.92      0.80      0.86        15
+
+    accuracy                           0.79        75
+   macro avg       0.80      0.79      0.79        75
+weighted avg       0.80      0.79      0.79        75

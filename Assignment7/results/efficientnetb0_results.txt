@@ -1,0 +1,31 @@
+EFFICIENTNETB0 TRANSFER LEARNING RESULTS
+==================================================
+
+Dataset: Grapevine Leaves
+Number of Classes: 5
+Training Images: 350
+Validation Images: 75
+Testing Images: 75
+Epochs: 15
+Batch Size: 32
+Best Epoch: 14
+Best Validation Accuracy: 89.33%
+Final Test Accuracy: 88.00%
+Test Loss: 0.3958
+Training Time: 398.06 seconds
+
+
+CLASSIFICATION REPORT
+==================================================
+
+              precision    recall  f1-score   support
+
+          Ak       1.00      0.80      0.89        15
+   Ala_Idris       0.86      0.80      0.83        15
+     Buzgulu       0.82      0.93      0.88        15
+      Dimnit       0.82      0.93      0.88        15
+       Nazli       0.93      0.93      0.93        15
+
+    accuracy                           0.88        75
+   macro avg       0.89      0.88      0.88        75
+weighted avg       0.89      0.88      0.88        75
