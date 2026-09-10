@@ -138,7 +138,7 @@ Then open the notebook using Jupyter Notebook or JupyterLab.
 ## Repository Contents
 
 ```text
-03_Forward_Backpropagation/
+Assignment3/
 │
 ├── Assignment_03_Forward_Backpropagation_Learning_Rate_Analysis.ipynb
 ├── Problem_Statement.pdf

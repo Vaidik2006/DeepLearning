@@ -99,7 +99,7 @@ Open `Assignment_04_LSTM_Weather_Forecasting.ipynb` and run all cells.
 ### Repository Contents
 
 ```text
-04_LSTM_Weather_Forecasting/
+Assignment4/
 ├── Assignment_04_LSTM_Weather_Forecasting.ipynb
 ├── jena_climate_2009_2016.csv
 └── README.md
