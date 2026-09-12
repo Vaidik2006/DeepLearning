@@ -15,6 +15,7 @@ env/
 Dataset/
 *.csv
 *.zip
+Assignment6/tomato/
 
 # Trained model weights
 models/
@@ -26,3 +27,4 @@ models/
 # OS files
 .DS_Store
 Thumbs.db
+desktop.ini
