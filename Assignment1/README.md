@@ -2,11 +2,11 @@
 
 > **Deep Learning Laboratory | Practical 01**
 
-## 📌 Problem Statement
+## Problem Statement
 
 Perform **data preprocessing, normalization, train-test splitting, and data visualization** on a sample dataset.
 
-## 🎯 Objective
+## Objective
 
 The objective of this practical is to understand the basic data preparation workflow required before training a deep learning model. The experiment demonstrates:
 
@@ -18,7 +18,7 @@ The objective of this practical is to understand the basic data preparation work
 - Training a basic neural network on the prepared data
 - Evaluating the model on unseen test data
 
-## 📊 Dataset
+## Dataset
 
 ### MNIST Handwritten Digit Dataset
 
@@ -35,7 +35,7 @@ The experiment uses the **MNIST dataset**, which contains grayscale images of ha
 
 The Keras dataset loader provides the training and testing sets separately, so the practical verifies this predefined train-test split rather than creating a second split.
 
-## 🔄 Workflow
+## Workflow
 
 ```text
 MNIST Dataset
@@ -59,7 +59,7 @@ Visualize Training Performance
 Save Model
 ```
 
-## 🧠 Model Used
+## Model Used
 
 A simple fully connected neural network is used to demonstrate the complete preprocessing-to-training workflow.
 
@@ -75,7 +75,7 @@ Dense Layer — 10 neurons, Softmax
 Digit Classification (0–9)
 ```
 
-## 📈 Results
+## Results
 
 The original experiment trained the model for **3 epochs** and achieved approximately:
 
@@ -85,7 +85,7 @@ Training accuracy progressed from approximately **92.54% → 96.60% → 97.61%**
 
 > Results are based on the submitted experiment. Re-running the notebook may produce slightly different values depending on the TensorFlow/Keras environment and execution conditions.
 
-## 🛠️ Technologies
+## Technologies
 
 - Python
 - TensorFlow
@@ -93,7 +93,7 @@ Training accuracy progressed from approximately **92.54% → 96.60% → 97.61%**
 - Matplotlib
 - Google Colab / Jupyter Notebook
 
-## ▶️ How to Run
+## How to Run
 
 ### Google Colab
 
@@ -112,7 +112,7 @@ pip install tensorflow matplotlib
 
 Then open the notebook using Jupyter Notebook or JupyterLab.
 
-## 📁 Repository Contents
+## Repository Contents
 
 ```text
 01_Data_Preprocessing/
@@ -121,21 +121,6 @@ Then open the notebook using Jupyter Notebook or JupyterLab.
 ├── Problem_Statement.pdf
 └── README.md
 ```
-
-## ✅ Learning Outcomes
-
-After completing this practical, the following concepts are demonstrated:
-
-- Dataset loading with TensorFlow/Keras
-- Image-data preprocessing
-- Pixel normalization
-- Train-test separation
-- Basic data visualization
-- Neural-network input preparation
-- Model training and evaluation
-- Saving a trained Keras model
-
-## 📄 Academic Information
 
 - **Subject:** Deep Learning
 - **Practical:** 01
