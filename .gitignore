@@ -8,23 +8,37 @@ __pycache__/
 venv/
 env/
 
-# Jupyter
+# Jupyter Notebook
 .ipynb_checkpoints/
 
-# Datasets
+# Datasets - all assignments
 Dataset/
+dataset/
+datasets/
+**/tomato/
 *.csv
 *.zip
-Assignment6/tomato/
 
-# Trained model weights
+# Trained models and checkpoints
 models/
 *.pth
 *.pt
 *.keras
 *.h5
+*.ckpt
 
-# OS files
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# OS and editor files
 .DS_Store
 Thumbs.db
 desktop.ini
+.vscode/
+
+# Temporary files and logs
+*.log
+*.tmp
+*.temp
